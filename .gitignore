@@ -1,0 +1,20 @@
+# Ignore all log files
+*.log
+
+# Ignore build and temp folders
+build/
+tmp/
+
+# Ignore all .env files except the example one
+# .env
+!.env.example
+
+# Ignore all node_modules folders anywhere in repo
+**/node_modules/
+
+# Ignore only a file in the root directory
+/package-lock.json
+
+# Ignore Mac and Windows system files
+.DS_Store
+Thumbs.db
